@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #111;
+}
+
+h1{
+    font-size: clamp(2rem, 4vw + 1rem, 5rem);
+    color: #00a2ff;
+    text-align: center;
+    cursor: pointer;
+}
+
+div{
+    margin: 80px auto;
+    border: 1px solid aqua;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
